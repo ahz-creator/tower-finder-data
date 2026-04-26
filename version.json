@@ -1,0 +1,6 @@
+{
+  "versionMillis": 1777193856000,
+  "total": 48120,
+  "uploadedBy": "admin",
+  "note": "Bump versionMillis whenever you replace the CSV in this repo so users get the update banner."
+}
