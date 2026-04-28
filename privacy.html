@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Tower Finder</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { color: #0B6E4F; border-bottom: 2px solid #0B6E4F; padding-bottom: 8px; }
+  h2 { color: #0B6E4F; margin-top: 32px; }
+  h3 { color: #444; }
+  a { color: #0B6E4F; }
+  ul { margin-left: 0; padding-left: 20px; }
+  li { margin: 4px 0; }
+  .meta { color: #888; font-size: 0.9em; margin-bottom: 24px; }
+  .contact { background: #f0fdf4; border-left: 4px solid #0B6E4F;
+             padding: 12px 16px; margin: 24px 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — Tower Finder</h1>
+<p class="meta">Effective date: 28 April 2026 · Last updated: 28 April 2026</p>
+
+<p>This Privacy Policy explains what information the <strong>Tower Finder</strong>
+mobile application ("the App", "we", "us") collects, how it is used, and the
+choices you have. Tower Finder is published by AHZ Global Services.</p>
+
+<h2>1. Information we collect</h2>
+
+<h3>1.1 Account information (provided by you)</h3>
+<ul>
+  <li>Email address</li>
+  <li>Password (stored hashed by Firebase Authentication; we never see your password)</li>
+  <li>Optional profile fields you fill in: full name, phone number, company,
+      role/title, years of experience, location (text), bio, skills, availability flag</li>
+</ul>
+
+<h3>1.2 Information collected automatically</h3>
+<ul>
+  <li><strong>Device location:</strong> precise GPS location, used only when the App
+      is open and only to show towers near you, plan routes, and label trip
+      receipts. Location is not transmitted to our servers; it is used on your
+      device. The most recent location label (e.g. "Karachi, Pakistan") is
+      cached on your device for one hour to reduce GPS use.</li>
+  <li><strong>Cellular network info:</strong> the cell ID and signal strength of
+      the tower currently serving your phone, used only to display the
+      "Serving Tower" card on the home screen. Stored on your device only.</li>
+  <li><strong>Crash reports:</strong> if the App crashes, an automatic anonymous
+      crash report is sent to Firebase Crashlytics so we can fix bugs. These
+      reports do not contain your name, email, location, or any user-entered
+      content.</li>
+</ul>
+
+<h3>1.3 Trip-quotation activity log</h3>
+<p>When you generate and share a trip quotation from the Route screen, the App
+silently records the following <strong>operational data</strong> to a private
+Google Sheet:</p>
+<ul>
+  <li>Quote ID (a random number)</li>
+  <li>Your display name and email (already in your account)</li>
+  <li>Date the quote was generated</li>
+  <li>Number of sites in the route, total distance, total duration, fuel estimate</li>
+  <li>List of public site IDs visited (e.g. "JZ-HYD-001")</li>
+  <li>The Google Maps URL for the route</li>
+</ul>
+<p>This log helps us understand how the route feature is used so we can
+improve it. We do <strong>not</strong> log your live GPS coordinates, phone
+number, address, or any other private details.</p>
+
+<h2>2. How we use your information</h2>
+<ul>
+  <li>To let you sign in to the App and remember you between sessions</li>
+  <li>To show towers near your location, plan routes, and label receipts</li>
+  <li>To respond to messages you send via the in-app Contact form</li>
+  <li>To show non-personalised banner advertisements (see "Advertising" below)</li>
+  <li>To diagnose crashes and improve App stability</li>
+</ul>
+<p>We do <strong>not</strong> sell, rent, or share your personal information
+with third parties for marketing purposes.</p>
+
+<h2>3. Telecom site data</h2>
+<p>The App uses a database of public telecom cell-site information for
+Pakistan, sourced from publicly available references. This data describes
+cell-tower locations operated by Jazz, Telenor, Ufone, and Zong. The App does
+not collect or transmit any telecom-operator confidential data.</p>
+
+<h2>4. Advertising</h2>
+<p>Tower Finder shows banner advertisements provided by Google AdMob. AdMob
+may collect a limited set of identifiers (such as the Google Advertising ID)
+to serve and measure ads. You can reset or limit ad personalisation at any
+time from your phone's Settings → Google → Ads.</p>
+<p>Read Google's privacy policy at
+<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+Tower Finder is configured to request <strong>non-personalised</strong> ads by
+default in regions that require it.</p>
+
+<h2>5. Third-party services we use</h2>
+<ul>
+  <li><strong>Firebase Authentication and Firestore</strong> (Google) — to manage
+      your account and store your profile fields</li>
+  <li><strong>Firebase Crashlytics</strong> (Google) — to receive anonymous crash
+      reports</li>
+  <li><strong>Google Maps</strong> — to open the optimised route in your phone's
+      Google Maps app</li>
+  <li><strong>Google Forms</strong> — to receive contact-form messages and
+      trip-quotation logs</li>
+  <li><strong>TinyURL</strong> — to shorten Google Maps share links</li>
+  <li><strong>AdMob</strong> — to display banner ads</li>
+</ul>
+
+<h2>6. Permissions the App requests</h2>
+<ul>
+  <li><strong>Location (Fine and Coarse)</strong> — to show nearby towers and plan
+      routes from your position. The App still works without this; you just
+      won't see distance-based features.</li>
+  <li><strong>Read Phone State</strong> — to read which cell tower is currently
+      serving your phone. The App still works without this; the Serving Tower
+      card just won't populate.</li>
+  <li><strong>Storage / Photos</strong> — only to save your trip-quotation receipt
+      images to your phone's gallery. The App does not read your other photos.</li>
+  <li><strong>Notifications</strong> (Android 13+) — reserved for future updates
+      such as a database-refresh banner. We do not send marketing or
+      promotional notifications.</li>
+  <li><strong>Internet</strong> — to download the latest tower database, sign in,
+      send contact messages, and load ads.</li>
+</ul>
+
+<h2>7. Your choices and rights</h2>
+<ul>
+  <li>You can stop using the App at any time and uninstall it.</li>
+  <li>You can request deletion of your account and associated profile data by
+      contacting us at the email below. We delete account data within 30 days
+      of a confirmed request.</li>
+  <li>You can deny or revoke any individual permission from your phone Settings
+      → Apps → Tower Finder → Permissions.</li>
+  <li>You can opt out of personalised advertising as described in section 4.</li>
+</ul>
+
+<h2>8. Data retention</h2>
+<ul>
+  <li>Account data (email, profile) is kept until you request deletion.</li>
+  <li>Trip-quotation logs are kept for as long as the linked Google Sheet
+      retains them (no automatic expiry).</li>
+  <li>Cached location and serving-cell data live only on your device and are
+      cleared when you uninstall the App.</li>
+</ul>
+
+<h2>9. Children's privacy</h2>
+<p>Tower Finder is intended for telecom professionals and the general adult
+public. It is not directed at children under 13, and we do not knowingly
+collect personal information from children under 13. If you believe a child
+has created an account, contact us and we will delete the account.</p>
+
+<h2>10. Security</h2>
+<p>We use industry-standard practices including HTTPS for all network
+requests and Firebase's managed authentication. No method of transmission or
+storage is 100% secure; we cannot guarantee absolute security but commit to
+addressing any breach promptly.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy from time to time. The "Last updated" date at the
+top will reflect any changes. Significant changes will be flagged inside the
+App. Continued use of the App after an update constitutes acceptance.</p>
+
+<h2>12. Contact</h2>
+<div class="contact">
+  Questions or data-deletion requests:<br>
+  <strong>AHZ Global Services</strong><br>
+  Email: <a href="mailto:ahztravellers@gmail.com">ahztravellers@gmail.com</a>
+</div>
+
+<p style="text-align: center; color: #aaa; font-size: 0.85em; margin-top: 48px;">
+  © 2026 AHZ Global Services. All rights reserved.
+</p>
+
+</body>
+</html>
